@@ -8,14 +8,21 @@
   "bin": {
     "gez-cz": "./bin/gezCz.js"
   },
+  "homepage": "https://github.com/Hb-zzZ/gez-cz",
   "repository": "git@github.com:Hb-zzZ/gez-cz.git",
   "author": "Hb-zzZ <Hb-email@foxmail.com>",
   "license": "MIT",
   "devDependencies": {
     "commander": "^9.4.1",
+    "commitizen": "^4.2.6",
     "cz-emoji-chinese": "^0.3.1",
     "standard-version": "^9.5.0"
   },
+  "keywords": [
+    "git",
+    "commit",
+    "git commit"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-emoji-chinese"
@@ -63,6 +70,12 @@
           "code": "🍱Assets",
           "description": "更新了静态资源",
           "name": "Assets"
+        },
+        {
+          "emoji": "📝",
+          "code": "📝Docs",
+          "description": "修改了文档内容",
+          "name": "Docs"
         },
         {
           "emoji": "🔀",

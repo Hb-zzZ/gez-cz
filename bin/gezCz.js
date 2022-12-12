@@ -11,8 +11,10 @@ cmd.name('gez-cz')
 cmd.parse(process.argv)
 
 const gitCz = () => {
+  const czPath = path.resolve(__dirname, '../')
+
   spawn('git cz', {
-    cwd: path.resolve(__dirname, '../'),
+    cwd: czPath,
     shell: true,
     stdio: 'inherit'
   })
