@@ -15,14 +15,14 @@ $ yarn global add gez-cz
 ## Example
 
 ```
-        // 执行提交引导
-        gez-cz
+// 执行提交引导
+gez-cz
 
 ```
 
 ```
-        // 查看当前插件版本
-        gez-cz -V
+// 查看当前插件版本
+gez-cz -V
 
 ```
 
