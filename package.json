@@ -1,0 +1,142 @@
+{
+  "name": "gez-cz",
+  "version": "1.0.0",
+  "description": "规范git commit msg提交",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "bin": {
+    "ptm": "./bin/ptm.js"
+  },
+  "repository": "git@github.com:Hb-zzZ/gez-cz.git",
+  "author": "Hb-zzZ <Hb-email@foxmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^9.4.1",
+    "cz-emoji-chinese": "^0.3.1",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-emoji-chinese"
+    },
+    "cz-emoji-chinese": {
+      "types": [
+        {
+          "emoji": "✨",
+          "code": "✨Feat",
+          "description": "新增了些厉害特性",
+          "name": "Feat"
+        },
+        {
+          "emoji": "♻️",
+          "code": "♻️Refactoring",
+          "description": "重构了下代码，但好像啥也没干",
+          "name": "Refactoring"
+        },
+        {
+          "emoji": "🐛",
+          "code": "🐛Bug",
+          "description": "修复了令人崩溃的bug",
+          "name": "Bug"
+        },
+        {
+          "emoji": "🎨",
+          "code": "🎨UI",
+          "description": "修改了下丑陋的样式",
+          "name": "UI"
+        },
+        {
+          "emoji": "💬",
+          "code": "💬Texts",
+          "description": "修改了文字描述",
+          "name": "Texts"
+        },
+        {
+          "emoji": "🚸",
+          "code": "🚸UX",
+          "description": "大大优化了交互",
+          "name": "UX"
+        },
+        {
+          "emoji": "🍱",
+          "code": "🍱Assets",
+          "description": "更新了静态资源",
+          "name": "Assets"
+        },
+        {
+          "emoji": "🔀",
+          "code": "🔀Merge",
+          "description": "合并了代码",
+          "name": "Merge"
+        },
+        {
+          "emoji": "🗑️",
+          "code": "🗑️Cleaned",
+          "description": "清除了多余内容",
+          "name": "Cleaned"
+        },
+        {
+          "emoji": "🧐",
+          "code": "🧐DB",
+          "description": "加上后端大佬要求的入参",
+          "name": "DB"
+        },
+        {
+          "emoji": "👷",
+          "code": "👷CI",
+          "description": "修改了下脚手架配置",
+          "name": "CI"
+        },
+        {
+          "emoji": "🔧",
+          "code": "🔧Config",
+          "description": "修改了下系统配置",
+          "name": "Config"
+        },
+        {
+          "emoji": "⚡️",
+          "code": "⚡️Pref",
+          "description": "优化了很捞的性能",
+          "name": "Pref"
+        },
+        {
+          "emoji": "🔖",
+          "code": "🔖Release",
+          "description": "发了个tag包",
+          "name": "Release"
+        },
+        {
+          "emoji": "🎉",
+          "code": "🎉init",
+          "description": "初始化",
+          "name": "init"
+        },
+        {
+          "emoji": "💥",
+          "code": "💥Breaking",
+          "description": "爆炸性改变的提交",
+          "name": "Breaking"
+        },
+        {
+          "emoji": "🚧",
+          "code": "🚧Wip",
+          "description": "还在做，没做完",
+          "name": "Wip"
+        },
+        {
+          "emoji": "💩",
+          "code": "💩Poo",
+          "description": "干掉了💩一样代码",
+          "name": "Poo"
+        },
+        {
+          "emoji": "🔍️",
+          "code": "🔍️SEO",
+          "description": "优化了网页搜索",
+          "name": "SEO"
+        }
+      ]
+    }
+  }
+}
