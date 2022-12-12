@@ -1,12 +1,12 @@
 {
   "name": "gez-cz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "规范git commit msg提交",
   "scripts": {
     "release": "standard-version"
   },
   "bin": {
-    "ptm": "./bin/ptm.js"
+    "gez-cz": "./bin/gezCz.js"
   },
   "repository": "git@github.com:Hb-zzZ/gez-cz.git",
   "author": "Hb-zzZ <Hb-email@foxmail.com>",

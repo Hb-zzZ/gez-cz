@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const cmd = require('commander')
 const PKG = require('../package.json')
+const path = require('path')
 
 const { spawn } = require('child_process')
 
@@ -11,6 +12,7 @@ cmd.parse(process.argv)
 
 const gitCz = () => {
   spawn('git cz', {
+    cwd: path.resolve(__dirname, '../'),
     shell: true,
     stdio: 'inherit'
   })
